@@ -29,6 +29,17 @@ const CardList = () => {
             categroy='culture'
             height='350px'
         />
+        <Card
+            title='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+            description='Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+            date='2023.11.6'
+            categroy='culture'
+            height='350px'
+        />
+        </div>
+        <div className='py-6'>
+
+          <Pagination/> 
         </div>
         
     </>

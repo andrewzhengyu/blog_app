@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={urban.className}>
         <Navbar/>
         {children}
-        
+        <Footer/>
       </body>
       
     </html>

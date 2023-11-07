@@ -14,7 +14,7 @@ const MenuItem = ({title, author, date}: MenuItemProps) => {
         <Badge className='grow-0'>badge</Badge>
       </div>
         <div>
-            <h2 className='py-2 font-semibold'>{title}</h2>
+            <h2 className='py-2 font-semibold text-sm'>{title}</h2>
             <h3 className='mb-6 text-sm'>{author} {' '} {date}</h3>
         </div>
     </div>

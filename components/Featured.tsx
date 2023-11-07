@@ -12,7 +12,7 @@ const Featured = () => {
             <p className='hidden sm:flex justify-center lg:text-5xl xl:text-6xl'>Discover my stories and creative ideas.</p>
         </h1>
         <div className='flex items-center max-sm:flex-col sm:mt-10'>
-            <div className='relative h-[30px] sm:h-[500px] w-full sm:flex-1'>
+            <div className='relative h-[350px] sm:h-[500px] w-full sm:flex-1'>
                 <Image
                     src={"/p1.jpeg"}
                     alt='image'

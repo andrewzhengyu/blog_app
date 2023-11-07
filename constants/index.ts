@@ -33,7 +33,7 @@ export const CATEGORYLIST = [
     {
         title: "style",
         icon: "/style.png",
-        background_color: "#57c4ff31"
+        background_color: "bg-[#57c4ff31]"
     },
     {
         title: "fashion",

@@ -25,10 +25,10 @@ const Navbar = () => {
             </div>
             <div className='relative'>
                 <Image
-                    src={"/logo.png"}
+                    src={"/logo2.png"}
                     alt='logo'
-                    width={80}
-                    height={80}
+                    width={120}
+                    height={120}
                     style={{objectFit: "contain"}}
                     className='cursor-pointer'
                 />

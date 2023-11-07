@@ -1,11 +1,13 @@
 import React from 'react'
-import Container from './Container'
+
+import { Button } from './ui/button'
 
 const Pagination = () => {
   return (
-    <Container>
-        Pagination
-    </Container>
+    <div className='flex items-center justify-between pr-6 py-6'>
+      <Button variant={"outline"}>Previous</Button>
+      <Button>Next</Button>
+    </div>
   )
 }
 

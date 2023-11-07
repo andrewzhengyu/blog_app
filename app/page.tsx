@@ -10,7 +10,7 @@ export default function Home() {
     <Container>
       <Featured/>
       <CategoryList/>
-      <div className='flex items-start max-sm:flex-col'>
+      <div className='flex items-start max-sm:flex-col lg:mb-18 sm:mb-12 max-sm:m-6'>
         <div className='sm:flex-1'>
           <CardList/>
         </div>
